@@ -1,0 +1,13 @@
+LINK:
+
+https://www.kaggle.com/datasets/ibrahimkaratas/gtsrb-german-traffic-sign-recognition-benchmark
+
+
+IMPLEMENT IN CODE:
+
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("ibrahimkaratas/gtsrb-german-traffic-sign-recognition-benchmark")
+
+print("Path to dataset files:", path)
